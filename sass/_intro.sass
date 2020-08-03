@@ -1,0 +1,200 @@
+.intro 
+  background: url(../img/intro/bg2.jpg)no-repeat center / cover
+  padding: 50px 0 65px
+  margin: 0 0 30px
+  @media (max-width: $md4)
+    padding: 20px 0 35px
+
+.intro__inner 
+  display: flex
+  position: relative
+
+.intro__text 
+  flex: 0 0 60%
+  @media (max-width: $md2)
+    flex: 0 0 100%
+
+.intro__title 
+  text-transform: uppercase
+  font-weight: 700
+  line-height: .8
+  border-bottom: 5px solid $white
+  padding: 0 0 5px
+  margin: 0 0 5px
+  .span-one
+    display: block 
+    padding: 0 75px 0 0
+    color: $pink
+    font-size: 25px
+    text-align: right
+  .span-two
+    display: block 
+    font-size: 110px
+    color: $white
+    &:before
+      content: '12'
+      display: inline-block
+      color: $pink
+      margin: 0 20px 0 0
+  @media (max-width: $md1)
+    .span-one
+      font-size: 22px
+    .span-two 
+      font-size: 90px
+  @media (max-width: $md2)
+    .span-one 
+      text-align: center
+  @media (max-width: $md3)
+    .span-one 
+      font-size: 18px
+      text-align: right
+      padding: 0 100px 0 0
+      margin: 0 0 5px
+    .span-two 
+      font-size: 65px
+      text-align: center
+  @media (max-width: 650px)
+    .span-one 
+      padding: 0 30px 0 0 
+      font-size: 14px
+    .span-two 
+      font-size: 50px
+      
+
+.intro__sub-title 
+  font-size: 24px
+  color: white
+  font-weight: 700
+  text-transform: uppercase
+  line-height: 1.1
+  margin: 0 0 35px
+  @media (max-width: $md1)
+    font-size: 20px
+  @media (max-width: $md3)
+    font-size: 15px
+    text-align: center
+
+.intro__price 
+  display: flex
+  align-items: center
+  margin: 0 0 45px
+  @media (max-width: $md3)
+    margin: 0 0 25px
+
+.intro__price-item 
+  color: $orange
+  font-family: $sffm 
+  font-weight: 700
+  font-size: 30px
+  flex: 0 0 33.333%
+  line-height: (26px/22px)
+  span 
+    font-size: 50px
+    font-weight: 700
+    font-family: $ffm
+  @media (max-width: $md1)
+    font-size: 25px
+    span 
+      font-size: 30px
+  @media (max-width: $md3)
+    font-size: 20px
+    span 
+      font-size: 25px
+
+.intro__price-item--1 
+
+.intro__price-item--2
+  text-align: center
+  font-size: 85px
+  font-family: $ffm
+  line-height: .4
+  color: $white
+  span
+    font-size: 32px
+    position: relative
+    left: 25px
+  @media (max-width: $md1)
+    font-size: 65px
+    span 
+      font-size: 25px
+  @media (max-width: $md3)
+    font-size: 45px
+    span
+      font-size: 19px
+
+.intro__price-item--3 
+  text-align: right
+  span 
+    display: block 
+    
+
+.intro__btn-label 
+  font-size: 19px
+  color: $white 
+  text-transform: uppercase
+  font-weight: 700
+  margin: 0 0 30px
+  span 
+    color: $orange
+  @media (max-width: $md1)
+    font-size: 17px
+  @media (max-width: $md3)
+    font-size: 15px
+
+.intro__btn 
+  font-family: $sffm 
+  font-size: 20px 
+  background: none 
+  color: $white
+  font-weight: 700
+  padding: 1em 1.5em
+  box-shadow: 0 0 5px 2px $pink
+  border-radius: 2em
+  @media (min-width: 992.98px)
+    &:hover
+      background: $pink 
+      transition: all .3s linear
+  @media (max-width: $md4)
+    font-size: 15px
+    width: 100%
+    padding: .8em 0
+
+.intro__icon-box 
+  display: flex
+
+.intro__icon-item
+  display: flex 
+  align-items: center
+  &:not(:last-child)
+    margin: 0 35px 0 0
+
+.intro__icon-img 
+  margin: 0 7px 0 0
+
+.home-work 
+  fill: white
+  width: 60px
+  height: auto
+  @media (max-width: $md4)
+    width: 40px
+
+.intro__icon-text 
+  font-size: 20px
+  color: $white
+  font-family: $sffm
+  @media (max-width: $md4)
+    font-size: 15px
+
+.practice 
+  fill: white
+  width: 60px
+  height: auto
+  @media (max-width: $md4)
+    width: 40px
+
+.intro__img 
+  position: absolute
+  bottom: -60px
+  right: 0
+  @media (max-width: $md2)
+    display: none

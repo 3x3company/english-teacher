@@ -1,0 +1,106 @@
+.set 
+  background: #F7F7F7
+  padding: 100px 0 70px
+  margin: 50px 0 0 
+
+.set__inner 
+
+.set__main-block 
+  background: white
+  margin: 0 auto
+  padding: 100px 20px 30px
+  width: 70%
+  box-shadow: 0 0 25px 5px lightgray
+  position: relative 
+  z-index: 1
+
+.set__main-block-top
+  display: flex
+  justify-content: space-around
+  align-items: center
+  position: absolute
+  top: -60px
+  left: 0
+  width: 100%
+
+.set__main-block-bottom
+
+.set__main-paragraph 
+  font-size: 20px
+  font-weight: 700
+  line-height: 1.4 
+  text-align: center 
+  padding: 0 40px
+  margin: 0 0 20px
+
+.set__link-block 
+  text-align: center
+
+.link-item 
+  display: inline-block 
+  padding: .8em 2em
+  background: $pink 
+  color: white 
+  font-size: 19px
+  font-weight: 700
+  font-family: $sffm 
+  border-radius: 2em
+  @media (min-width: 992.98px)
+    &:hover
+      background: orange
+      transition: all .2s linear
+
+.set__price 
+  background: $pink 
+  display: inline-block 
+  text-align: center
+  font-size: 18px
+  color: white
+  font-family: $sffm
+  padding: 30px 10px
+  // position: absolute
+  // top: -55px
+  // left: 20px
+  span 
+    display: block 
+    font-size: 40px
+    font-weight: 700
+    margin: 3px 0
+    padding: 0 3px
+    position: relative
+    &:after
+      content: ''
+      position: absolute
+      top: 50%
+      transform: translateY(-50%)
+      left: 0
+      height: 3px
+      width: 100%
+      background: white
+
+.set__title 
+  display: inline-block 
+  background: black 
+  color: white 
+  text-align: center
+  line-height: 1.4
+  text-transform: uppercase 
+  font-weight: 700
+  font-size: 35px
+  padding: .5em 1.5em
+  // position: absolute
+  // top: -45px
+  // left: 50%
+  // transform: translateX(-50%)
+
+.set__bonus 
+  display: inline-block 
+  padding: 10px 20px
+  text-align: center
+  line-height: 1.4
+  font-size: 19px
+  font-family: $sffm
+  background: #E3E3E3
+  // position: absolute
+  // top: -60px
+  // right: 20px
